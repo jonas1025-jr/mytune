@@ -1,0 +1,208 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.navbar{
+    background-color: rgb(59, 56, 56);
+    margin: 0 auto;
+    padding: auto;
+    height: 60%;
+    overflow: hidden;
+    position: sticky;
+    top:0;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-right: 20px;
+
+}
+.navbar ul{
+    display: flex;
+    flex: 1;
+    margin: 12px 10px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 15px;
+
+}
+/*
+.navbar a:hover{
+color: yellow;
+background-color: rgb(4, 4, 77);
+border:6px outset navy;
+border-radius: 15px;
+}
+ */
+.navbar .container ul li.active{
+
+    text-decoration: underline;
+    text-decoration-color: rgb(13, 0, 128);
+    transition: 0.3 ease-in-out;
+    text-decoration-thickness: 7px;
+}
+
+/*header section*/
+
+.header  .container{
+    color: #fff;
+    background-image: url(img/myt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    overflow: hidden;
+}
+.mytunes{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: end;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   line-height: 1.5;
+}
+.mytunes h1{
+   margin-top: 100px;
+}
+
+/*first section*/
+
+.first{
+    background-color: rgb(22, 20, 20);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+
+.music{
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+    padding: 15px;
+
+}
+.first .start_trail{
+    padding: 20px;
+    background-color: rgb(168, 11, 11);
+    color: #fff;
+    align-self: center;
+    border-width: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.start_trail:hover{
+    background-color: rgb(228, 18, 18);
+}
+.mobile{
+    min-height: 700px;
+    max-width: 1090px;
+    align-self: center;
+    margin-left: 100px;
+}
+
+/*second section*/
+
+.video{
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.second h1{
+    padding-top: 20px;
+}
+.readMore{
+    align-self: center;
+    background-color: rgb(5, 5, 66);
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border: 5px outset rgb(185, 185, 206) ;
+    border-radius: 15px;
+}
+.readMore:hover{
+    background-color: rgb(18, 18, 107);
+}
+.gt{
+    overflow: hidden;
+}
+.bluesky{
+    background-image: url(img/bluesky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+}
+/*third section*/
+.bluesky h1{
+    padding-top: 200px;
+}
+.third .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5;
+}
+.cd{
+    max-height: 550px;
+    max-width: 550px;
+    padding: 50px;
+}
+.third a{
+    text-decoration: none;
+}
+.third a:hover{
+    color: red;
+}
+
+
+/*footer*/
+
+.footer{
+    background-color: rgb(59, 56, 56);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+
+}
+.boxes{
+    flex: 1;
+    margin: 20px 10px;
+    border-radius: 25px;
+    color: whitesmoke;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer hr{
+    padding: 0.1px;
+}
+.copy-right{
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    font-size: 12px;
+    background-color: rgb(30, 29, 31);
+}
+@media(max-width: 6s00px){
+    body {
+      width: 100%;
+    }
+}
